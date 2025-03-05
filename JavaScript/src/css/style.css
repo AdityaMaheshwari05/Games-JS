@@ -1,0 +1,103 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice img {
+  width: 150px;
+  margin: 20px;
+}
+
+.players {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.pnum {
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  width: 40%;
+  background: #fff;
+}
+
+input {
+  font-size: 18px;
+  text-align: center;
+  width: 90%;
+  border: none;
+  border-bottom: 2px solid #000;
+}
+
+.buttons button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  background: #28a745;
+  color: white;
+  border-radius: 5px;
+}
+
+.buttons button:hover {
+  background: #218838;
+}
+
+body {
+  background-color: #042f4b;
+  margin: 0;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster";
+  text-shadow: 5px 0 #232931;
+  font-size: 4.5rem;
+  color: #4ecca3;
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 100%;
+}
+
+.bottom {
+  padding-top: 30px;
+}
+
+.btn {
+  background: #4ecca3;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border-radius: 7px;
+  color: #ffff;
+  font-size: 30px;
+  padding: 16px 25px 16px 25px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #232931;
+  text-decoration: none;
+}
+
+.even-roll {
+  transition: transform 1.5s ease-out;
+}
+.odd-roll {
+  transition: transform 1.25s ease-out;
+}
+
+#winner {
+  font-size: 24px;
+  color: red;
+  font-weight: bold;
+}

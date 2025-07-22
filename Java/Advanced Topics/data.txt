@@ -1,1 +1,0 @@
-This is the data file for testing file reading.
